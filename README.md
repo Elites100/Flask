@@ -56,7 +56,7 @@ Ensure that you have the following installed:
     pip install -r requirements.txt
     ```
 
-4. Initialize the database:
+4. Initialize the database (optional, this step could be skipped due to running the application would create a new DB if the instance DB is deleted) :
 
     ```bash
     flask db init
@@ -67,25 +67,23 @@ Ensure that you have the following installed:
 5. Run the Flask application:
 
     ```bash
-    flask run
+    Navigate to main.py and run Python file
     ```
 
-6. Open your browser and go to `http://127.0.0.1:5000/` to access the app.
+6. Open your browser and go to `http://127.0.0.1:5000/` to access the app (seen in the command prompt).
 
 ## Project Structure
 
 ```plaintext
-flask-notes-app/
+FlaskIntro/
 │
-├── app/
+├── website/
 │   ├── __init__.py       # Initializes Flask app
 │   ├── models.py         # Database models (User, Notes)
 │   ├── routes.py         # Application routes (login, logout, signup, notes CRUD)
 │   ├── templates/        # HTML templates
 │   └── static/           # CSS, JS, and images
 │
-├── migrations/           # For database migrations
-├── venv/                 # Virtual environment (optional)
-├── config.py             # Application configuration (database URI, secret keys)
+├
 ├── requirements.txt      # Project dependencies
 └── README.md             # You're here!
