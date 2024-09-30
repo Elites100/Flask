@@ -39,8 +39,8 @@ Ensure that you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/flask-notes-app.git
-    cd flask-notes-app
+    git clone [https://github.com/your-username/flask-notes-app.git](https://github.com/Elites100/Flask-Notes-.git)
+    cd FlaskIntro
     ```
 
 2. Create a virtual environment (optional but recommended):
